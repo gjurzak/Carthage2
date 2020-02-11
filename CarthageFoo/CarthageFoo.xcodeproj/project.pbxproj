@@ -10,22 +10,7 @@
 		37BB855023F314D600A3FC01 /* CarthageFoo.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB854E23F314D600A3FC01 /* CarthageFoo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37BB855723F314F000A3FC01 /* Tymon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB855623F314F000A3FC01 /* Tymon.swift */; };
 		37BB855B23F315DA00A3FC01 /* CarthageFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB855A23F315DA00A3FC01 /* CarthageFramework.framework */; };
-		37BB855C23F315DA00A3FC01 /* CarthageFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB855A23F315DA00A3FC01 /* CarthageFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		37BB855D23F315DA00A3FC01 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				37BB855C23F315DA00A3FC01 /* CarthageFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		37BB854B23F314D600A3FC01 /* CarthageFoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarthageFoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +97,6 @@
 				37BB854723F314D600A3FC01 /* Sources */,
 				37BB854823F314D600A3FC01 /* Frameworks */,
 				37BB854923F314D600A3FC01 /* Resources */,
-				37BB855D23F315DA00A3FC01 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
