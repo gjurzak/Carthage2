@@ -1,0 +1,10 @@
+{
+  "commitish" : "2e231b185449ea6062e342dd9848ebb7cdd02805",
+  "iOS" : [
+    {
+      "name" : "CarthageFramework",
+      "hash" : "fe647d4edd554c018866666aaf3a26fba5518e78168cbb510f412640a3d4d8b1",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}
