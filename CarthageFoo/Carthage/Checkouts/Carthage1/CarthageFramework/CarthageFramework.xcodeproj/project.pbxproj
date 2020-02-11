@@ -7,138 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37BB855023F314D600A3FC01 /* CarthageFoo.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB854E23F314D600A3FC01 /* CarthageFoo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37BB855723F314F000A3FC01 /* Tymon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB855623F314F000A3FC01 /* Tymon.swift */; };
-		37BB855B23F315DA00A3FC01 /* CarthageFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB855A23F315DA00A3FC01 /* CarthageFramework.framework */; };
-		37BB855C23F315DA00A3FC01 /* CarthageFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB855A23F315DA00A3FC01 /* CarthageFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		37BB853823F313F600A3FC01 /* CarthageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB853623F313F600A3FC01 /* CarthageFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BB853F23F3142000A3FC01 /* Greg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB853E23F3142000A3FC01 /* Greg.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		37BB855D23F315DA00A3FC01 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				37BB855C23F315DA00A3FC01 /* CarthageFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		37BB854B23F314D600A3FC01 /* CarthageFoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarthageFoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37BB854E23F314D600A3FC01 /* CarthageFoo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageFoo.h; sourceTree = "<group>"; };
-		37BB854F23F314D600A3FC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37BB855623F314F000A3FC01 /* Tymon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tymon.swift; sourceTree = "<group>"; };
-		37BB855A23F315DA00A3FC01 /* CarthageFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarthageFramework.framework; path = Carthage/Build/iOS/CarthageFramework.framework; sourceTree = "<group>"; };
+		37BB853323F313F600A3FC01 /* CarthageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarthageFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BB853623F313F600A3FC01 /* CarthageFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageFramework.h; sourceTree = "<group>"; };
+		37BB853723F313F600A3FC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37BB853E23F3142000A3FC01 /* Greg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37BB854823F314D600A3FC01 /* Frameworks */ = {
+		37BB853023F313F600A3FC01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37BB855B23F315DA00A3FC01 /* CarthageFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37BB854123F314D600A3FC01 = {
+		37BB852923F313F600A3FC01 = {
 			isa = PBXGroup;
 			children = (
-				37BB854D23F314D600A3FC01 /* CarthageFoo */,
-				37BB854C23F314D600A3FC01 /* Products */,
-				37BB855923F315DA00A3FC01 /* Frameworks */,
+				37BB853523F313F600A3FC01 /* CarthageFramework */,
+				37BB853423F313F600A3FC01 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		37BB854C23F314D600A3FC01 /* Products */ = {
+		37BB853423F313F600A3FC01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37BB854B23F314D600A3FC01 /* CarthageFoo.framework */,
+				37BB853323F313F600A3FC01 /* CarthageFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37BB854D23F314D600A3FC01 /* CarthageFoo */ = {
+		37BB853523F313F600A3FC01 /* CarthageFramework */ = {
 			isa = PBXGroup;
 			children = (
-				37BB855823F314F700A3FC01 /* Sources */,
-				37BB854E23F314D600A3FC01 /* CarthageFoo.h */,
-				37BB854F23F314D600A3FC01 /* Info.plist */,
+				37BB854023F3142800A3FC01 /* Sources */,
+				37BB853623F313F600A3FC01 /* CarthageFramework.h */,
+				37BB853723F313F600A3FC01 /* Info.plist */,
 			);
-			path = CarthageFoo;
+			path = CarthageFramework;
 			sourceTree = "<group>";
 		};
-		37BB855823F314F700A3FC01 /* Sources */ = {
+		37BB854023F3142800A3FC01 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				37BB855623F314F000A3FC01 /* Tymon.swift */,
+				37BB853E23F3142000A3FC01 /* Greg.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		37BB855923F315DA00A3FC01 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				37BB855A23F315DA00A3FC01 /* CarthageFramework.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		37BB854623F314D600A3FC01 /* Headers */ = {
+		37BB852E23F313F600A3FC01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37BB855023F314D600A3FC01 /* CarthageFoo.h in Headers */,
+				37BB853823F313F600A3FC01 /* CarthageFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		37BB854A23F314D600A3FC01 /* CarthageFoo */ = {
+		37BB853223F313F600A3FC01 /* CarthageFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37BB855323F314D600A3FC01 /* Build configuration list for PBXNativeTarget "CarthageFoo" */;
+			buildConfigurationList = 37BB853B23F313F600A3FC01 /* Build configuration list for PBXNativeTarget "CarthageFramework" */;
 			buildPhases = (
-				37BB854623F314D600A3FC01 /* Headers */,
-				37BB854723F314D600A3FC01 /* Sources */,
-				37BB854823F314D600A3FC01 /* Frameworks */,
-				37BB854923F314D600A3FC01 /* Resources */,
-				37BB855D23F315DA00A3FC01 /* Embed Frameworks */,
+				37BB852E23F313F600A3FC01 /* Headers */,
+				37BB852F23F313F600A3FC01 /* Sources */,
+				37BB853023F313F600A3FC01 /* Frameworks */,
+				37BB853123F313F600A3FC01 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CarthageFoo;
-			productName = CarthageFoo;
-			productReference = 37BB854B23F314D600A3FC01 /* CarthageFoo.framework */;
+			name = CarthageFramework;
+			productName = CarthageFramework;
+			productReference = 37BB853323F313F600A3FC01 /* CarthageFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		37BB854223F314D600A3FC01 /* Project object */ = {
+		37BB852A23F313F600A3FC01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = HYD;
 				TargetAttributes = {
-					37BB854A23F314D600A3FC01 = {
+					37BB853223F313F600A3FC01 = {
 						CreatedOnToolsVersion = 11.3.1;
 						LastSwiftMigration = 1130;
 					};
 				};
 			};
-			buildConfigurationList = 37BB854523F314D600A3FC01 /* Build configuration list for PBXProject "CarthageFoo" */;
+			buildConfigurationList = 37BB852D23F313F600A3FC01 /* Build configuration list for PBXProject "CarthageFramework" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,18 +118,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 37BB854123F314D600A3FC01;
-			productRefGroup = 37BB854C23F314D600A3FC01 /* Products */;
+			mainGroup = 37BB852923F313F600A3FC01;
+			productRefGroup = 37BB853423F313F600A3FC01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37BB854A23F314D600A3FC01 /* CarthageFoo */,
+				37BB853223F313F600A3FC01 /* CarthageFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		37BB854923F314D600A3FC01 /* Resources */ = {
+		37BB853123F313F600A3FC01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -167,18 +139,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37BB854723F314D600A3FC01 /* Sources */ = {
+		37BB852F23F313F600A3FC01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37BB855723F314F000A3FC01 /* Tymon.swift in Sources */,
+				37BB853F23F3142000A3FC01 /* Greg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		37BB855123F314D600A3FC01 /* Debug */ = {
+		37BB853923F313F600A3FC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		37BB855223F314D600A3FC01 /* Release */ = {
+		37BB853A23F313F600A3FC01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -298,7 +270,7 @@
 			};
 			name = Release;
 		};
-		37BB855423F314D600A3FC01 /* Debug */ = {
+		37BB853C23F313F600A3FC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -308,18 +280,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = CarthageFoo/Info.plist;
+				INFOPLIST_FILE = CarthageFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = agency.hyd.ios.CarthageFoo;
+				PRODUCT_BUNDLE_IDENTIFIER = agency.hyd.ios.CarthageFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -328,7 +296,7 @@
 			};
 			name = Debug;
 		};
-		37BB855523F314D600A3FC01 /* Release */ = {
+		37BB853D23F313F600A3FC01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -338,18 +306,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = CarthageFoo/Info.plist;
+				INFOPLIST_FILE = CarthageFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = agency.hyd.ios.CarthageFoo;
+				PRODUCT_BUNDLE_IDENTIFIER = agency.hyd.ios.CarthageFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -360,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37BB854523F314D600A3FC01 /* Build configuration list for PBXProject "CarthageFoo" */ = {
+		37BB852D23F313F600A3FC01 /* Build configuration list for PBXProject "CarthageFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37BB855123F314D600A3FC01 /* Debug */,
-				37BB855223F314D600A3FC01 /* Release */,
+				37BB853923F313F600A3FC01 /* Debug */,
+				37BB853A23F313F600A3FC01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37BB855323F314D600A3FC01 /* Build configuration list for PBXNativeTarget "CarthageFoo" */ = {
+		37BB853B23F313F600A3FC01 /* Build configuration list for PBXNativeTarget "CarthageFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37BB855423F314D600A3FC01 /* Debug */,
-				37BB855523F314D600A3FC01 /* Release */,
+				37BB853C23F313F600A3FC01 /* Debug */,
+				37BB853D23F313F600A3FC01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 37BB854223F314D600A3FC01 /* Project object */;
+	rootObject = 37BB852A23F313F600A3FC01 /* Project object */;
 }
