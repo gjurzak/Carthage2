@@ -18,6 +18,7 @@
 		37BB854F23F314D600A3FC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37BB855623F314F000A3FC01 /* Tymon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tymon.swift; sourceTree = "<group>"; };
 		37BB855A23F315DA00A3FC01 /* CarthageFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarthageFramework.framework; path = Carthage/Build/iOS/CarthageFramework.framework; sourceTree = "<group>"; };
+		37CEFF9C23F31FDF00680200 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		37BB854123F314D600A3FC01 = {
 			isa = PBXGroup;
 			children = (
+				37CEFF9C23F31FDF00680200 /* Package.swift */,
 				37BB854D23F314D600A3FC01 /* CarthageFoo */,
 				37BB854C23F314D600A3FC01 /* Products */,
 				37BB855923F315DA00A3FC01 /* Frameworks */,
@@ -294,7 +296,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../../../Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CarthageFoo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -324,7 +326,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../../../Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CarthageFoo/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
